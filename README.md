@@ -40,22 +40,22 @@ retail-etl/
         └── ci.yml         # CI/CD pipeline
 ```
 
-## Setup Instructions
+# Setup Instructions
 
-# Clone the repository
+## Clone the repository
 git clone git@github.com:RazBiz/sales_analytics_ETL_dashboard.git
 cd sales_analytics_ETL_dashboard
 
-# Run the etl flow manually (you can also automate this process as event driven)
+## Run the etl flow manually (you can also automate this process as event driven)
 export PYTHONPATH=/your/folder/path/sales_analytics_ETL_dashboard
 python3 orchestrator/flow.py
 
-# Build and run all services using Docker
+## Build and run all services using Docker
 docker-compose up --build
 
-# Access the dashboard at:
+## Access the dashboard at:
 http://localhost:8050
 
 
-#Here is a screenshot of the simple dashboard:
+## Here is a screenshot of the simple dashboard:
 ![Project Image](images/dashboard.png)
